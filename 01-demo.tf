@@ -1,4 +1,4 @@
-/* provider "aws" {
+provider "aws" {
   region = "eu-central-1"
 }
 
@@ -9,7 +9,7 @@ resource "aws_instance" "my_ec2" {
   tags = {
     "Name" = "my_first_ec2"
   }
-} */
+}
 
 # terraform init makes terraform dlownload all the plugin associated with the provider
 

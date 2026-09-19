@@ -21,3 +21,5 @@ resource "aws_instance" "web" {
 
 # then seearch online "graphviz online"
 # and paste what is coming out of the cmd "terraform graph"
+# sudo apt install graphviz
+# terraform graph | dot -Tpng > graph.png
