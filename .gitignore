@@ -1,0 +1,5 @@
+.terraform
+*tfstate*
+*hcl
+private.env
+*env
